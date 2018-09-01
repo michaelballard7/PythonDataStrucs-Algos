@@ -31,9 +31,12 @@ class LinkedList(object):
 
         if not self.head:
             self.head = newNode
+            print("Data successfully inserted at front of list")
         else:
             newNode.nextNode = self.head
             self.head = newNode
+            print("Data successfully inserted at front of list")
+           
 
     def size1(self):
         return self.size
@@ -57,6 +60,9 @@ class LinkedList(object):
             actualNode = actualNode.nextNode
 
         actualNode.nextNode = newNode
+        
+        print("Successfully added to end the list")
+        
 
     def traverseList(self,data):
         actualNode = self.head
@@ -83,3 +89,10 @@ class LinkedList(object):
             self.head = currentNode.nextNode
         else:
             previousNode.nextNode = currentNode.nextNode
+
+linkedList = LinkedList()
+
+print("The size output ", linkedList.size1)
+
+linkedList.insertStart(8)
+linkedList.insertEnd(27)
