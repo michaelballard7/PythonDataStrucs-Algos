@@ -50,7 +50,7 @@ class LinkedList(object):
             actualNode = actualNode.nextNode
             return size
 
-    # inseting at the end is very slow and has linear time complexity
+    # inserting at the end is very slow and has linear time complexity
     def insertEnd(self,data):
         self.size = self.size + 1
         newNode = Node(data)
@@ -64,13 +64,6 @@ class LinkedList(object):
         print("Successfully added to end the list")
         
 
-    def traverseList(self,data):
-        actualNode = self.head
-
-        while actualNode is not None:
-            print("#d" % actualNode.data)
-            actualNode = actualNode.nextNode
-
     def remove(self,data):
 
         if self.head is None:
@@ -80,6 +73,7 @@ class LinkedList(object):
 
         currentNode = self.head
         previousNode = None
+    
 
         while currentNode.data != data:
             previousNode = currentNode
@@ -90,9 +84,28 @@ class LinkedList(object):
         else:
             previousNode.nextNode = currentNode.nextNode
 
+
+    def traverseList(self):
+        actualNode = self.head
+
+        while actualNode is not None:
+            print("%d" % actualNode.data)
+            actualNode = actualNode.nextNode
+
 linkedList = LinkedList()
 
 print("The size output ", linkedList.size1)
 
 linkedList.insertStart(8)
 linkedList.insertEnd(27)
+
+linkedList.insertStart(3)
+linkedList.insertEnd(31)
+
+linkedList.remove(31)
+linkedList.remove(27)
+
+
+linkedList.traverseList()
+
+print(linkedList.size1())
