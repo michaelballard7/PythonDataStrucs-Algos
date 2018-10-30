@@ -1,5 +1,5 @@
 
-
+""" FIFO Strucuture """
 
 class Queue:
 

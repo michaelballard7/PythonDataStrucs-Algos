@@ -105,6 +105,9 @@ linkedList.insertEnd(31)
 linkedList.remove(31)
 linkedList.remove(27)
 
+linkedList.insertStart("This is the beginning")
+linkedList.insertEnd("The End is far aways, thy dear")
+
 
 linkedList.traverseList()
 
