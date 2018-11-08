@@ -1,0 +1,36 @@
+
+Data Strutures are a fundamental element of programming once I have the models of my programs figured out.
+
+I use data structures to effificiently store information for my program and and access it 
+
+Algorithms are instructions to be carried out by the computer.  
+
+Data Structures and algorithms used to implement Classes and objects to create software or a function model of some real world phenomena 
+
+Data structures specifically are a specialized format for organizing and storing data
+
+The main role of a computer program is to store and proccess data. 
+
+Computer programs have data models that define what data will be collected and worked on.
+
+Data structure examples are Lists, Strings, Records, tables, dictionaries
+
+The characteristics of data structures are Static, Dynamic, Mutable, Immutable
+
+Every data structure has basic operations: Traversing, Searching, Insertion, Deletion.
+
+Data Structures are used in an object oriented way
+
+
+
+********
+
+Lists:
+
+Ordered Sequences that can hold a variety of objects 
+
+Lists support indexing and slicing
+
+Lists have a variety of useful methods than can be called on them
+
+Lists can be nested in one another
