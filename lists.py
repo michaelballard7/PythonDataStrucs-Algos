@@ -37,4 +37,26 @@ c = [7,8,9]
 abc = [a,b,c]
 middle_item = abc[1][1]
 
-# List building methods
+# List Operations, sorting will affect the original list
+a.count(3)
+b.sort(reverse=True)
+c.reverse()
+max(abc)
+min(abc)
+
+# Slicing with lists
+ordered_numbers = [0,1,2,3,4,5]
+ordered_numbers[2:5]
+ordered_numbers[:4]
+ordered_numbers[2:]
+
+# deletion from a list by index reference
+del a[0]
+
+
+# traversing a list 
+for element in abc:
+    print(element)
+
+# I search to see if something is in a list:
+print(34 in a)

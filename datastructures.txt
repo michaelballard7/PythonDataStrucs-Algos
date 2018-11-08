@@ -13,7 +13,7 @@ The main role of a computer program is to store and proccess data.
 
 Computer programs have data models that define what data will be collected and worked on.
 
-Data structure examples are Lists, Strings, Records, tables, dictionaries
+Data structure examples are Lists, Tuples Strings, Records, tables, dictionaries
 
 The characteristics of data structures are Static, Dynamic, Mutable, Immutable
 
@@ -22,10 +22,15 @@ Every data structure has basic operations: Traversing, Searching, Insertion, Del
 Data Structures are used in an object oriented way
 
 
+Data Structures can typically be classified at mutable or Immutable
 
 ********
 
 Lists:
+
+This is a type of sequence in python. The other being a tuple, the immutable cousin of lists
+
+Lists are mutable where tuples are not 
 
 Ordered Sequences that can hold a variety of objects 
 
