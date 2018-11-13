@@ -1,4 +1,21 @@
- 
+"""
+
+A stack is a list of elements in which an element may be inserted or deleted only at one end
+
+This mean elements are removed in reverse order than which they were inserted  
+
+Last in First Out, First in Last out 
+
+Remember the last element in a stack is the first element to be removed from the stack
+
+Applications of stacks include: Parsing, Recursive Function, Calling Function, Expressive Evaluation, Expression Conversion, Towers of Hanoi
+
+"""
+
+
+
+
+
 class Stack:
 
     # this is the implementation of a stack data structure
